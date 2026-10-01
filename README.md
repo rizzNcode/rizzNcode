@@ -14,8 +14,8 @@
 <p align="center">
    <img src="https://hits.sh/github.com/rizzNcode.svg?style=for-the-badge&color=6c8eef&label=Profile%20Views" alt="Profile views" />
   <a href="https://github.com/rizzNcode?tab=followers"><img src="https://img.shields.io/github/followers/rizzNcode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
-  <a href="https://github.com/rizzNcode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizzNcode&query=$.public_repos&label=Total%20Repository&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
-  <a href="https://github.com/rizzNcode?tab=stars"><img src="https://img.shields.io/github/stars/rizzNcode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
+  <a href="https://github.com/rizzNcode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizzNcode&query=$.public_repos&label=Repositories&style=for-the-badge&logo=github&color=6c8eef" alt="Repositories" /></a>
+  <a href="https://github.com/rizzNcode?tab=stars"><img src="https://img.shields.io/github/stars/rizzNcode?affiliations=OWNER&label=Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
 </p>
 
 ---
