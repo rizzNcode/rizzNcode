@@ -122,4 +122,4 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <i>"Code is like petrichor — best when it comes after a little storm."</i> 🌧️
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&height=100&section=footer" alt="footer" width="100%" />
