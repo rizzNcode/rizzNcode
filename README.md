@@ -57,7 +57,7 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <img src="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9" alt="Frontend & design" />
 </p>
 <p align="left">
- <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,postman,github&perline=9" alt="Backend, cloud & tools" />
+ <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,postman,github&perline=9" alt="Backend, cloud & tools" />
 </p>
 
 ---
