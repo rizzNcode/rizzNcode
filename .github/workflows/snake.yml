@@ -1,9 +1,12 @@
 name: Generate Snake
 
 on:
+  # jalan otomatis setiap 12 jam
   schedule:
     - cron: "0 */12 * * *"
+  # bisa dijalankan manual dari tab Actions
   workflow_dispatch:
+  # jalan juga setiap ada push ke branch main
   push:
     branches:
       - main
@@ -16,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # 1) Buat SVG ular dengan palet biru (navy -> biru muda)
+      #    color_dots = warna kotak kosong, lalu 4 level kontribusi (gelap -> terang)
       - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -24,6 +29,7 @@ jobs:
             dist/github-snake-dark.svg?color_snake=#7EC8FF&color_dots=#161b22,#12397A,#1E5AA8,#4A9BE8,#7EC8FF
             dist/github-snake.svg?color_snake=#1E5AA8&color_dots=#ebedf0,#A8D4FF,#5BA8F0,#1E5AA8,#0A1F44
 
+      # 2) Beri badan ular warna gradasi (kepala -> ekor) supaya tidak satu warna
       - name: Apply gradient to snake body
         run: |
           # versi dark: kepala biru sangat muda -> ekor navy
@@ -31,6 +37,119 @@ jobs:
           # versi light: kepala navy -> ekor biru muda
           sed -i 's|</style>|.s.s0{fill:#0A1F44}.s.s1{fill:#12397A}.s.s2{fill:#1E5AA8}.s.s3{fill:#4A9BE8}.s.s4,.s.s5,.s.s6,.s.s7,.s.s8,.s.s9{fill:#7EC8FF}</style>|' dist/github-snake.svg
 
+      # 3) Buat grafik aktivitas kontribusi 30 hari terakhir (navy -> biru muda)
+      - name: Generate activity graph
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: dist
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime, urllib.request
+
+          USER = os.environ.get("GH_USER", "rizznavycode")
+          TOKEN = os.environ.get("GH_TOKEN", "")
+          DAYS = 30
+          OUT = os.environ.get("OUT_DIR", "dist")
+
+
+          def fetch_days():
+              if os.environ.get("MOCK"):
+                  import random
+                  random.seed(3)
+                  today = datetime.date.today()
+                  return [((today - datetime.timedelta(days=DAYS - 1 - i)).isoformat(), random.choice([0, 0, 1, 2, 3, 5, 8, 4]))
+                          for i in range(DAYS)]
+              end = datetime.datetime.now(datetime.timezone.utc)
+              start = end - datetime.timedelta(days=DAYS + 1)
+              query = """query($login:String!,$from:DateTime!,$to:DateTime!){
+                user(login:$login){contributionsCollection(from:$from,to:$to){
+                  contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
+              body = json.dumps({"query": query, "variables": {
+                  "login": USER, "from": start.isoformat(), "to": end.isoformat()}}).encode()
+              req = urllib.request.Request("https://api.github.com/graphql", data=body, headers={
+                  "Authorization": "bearer " + TOKEN, "Content-Type": "application/json",
+                  "User-Agent": "activity-graph"})
+              data = json.load(urllib.request.urlopen(req, timeout=30))
+              weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+              days = [(d["date"], d["contributionCount"]) for w in weeks for d in w["contributionDays"]]
+              days.sort()
+              return days[-DAYS:]
+
+
+          def smooth_path(pts, lo, hi):
+              # kurva halus (Catmull-Rom -> Bezier)
+              d = "M%.1f,%.1f" % pts[0]
+              for i in range(len(pts) - 1):
+                  p0 = pts[i - 1] if i > 0 else pts[i]
+                  p1, p2 = pts[i], pts[i + 1]
+                  p3 = pts[i + 2] if i + 2 < len(pts) else p2
+                  c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
+                  c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
+                  c1 = (c1[0], min(max(c1[1], hi), lo))
+                  c2 = (c2[0], min(max(c2[1], hi), lo))
+                  d += " C%.1f,%.1f %.1f,%.1f %.1f,%.1f" % (c1 + c2 + p2)
+              return d
+
+
+          def render(days, theme):
+              W, H = 900, 320
+              L, R, T, B = 50, 30, 70, 50
+              cw, ch = W - L - R, H - T - B
+              counts = [c for _, c in days]
+              ymax = max(5, max(counts))
+              ymax = ((ymax + 4) // 5) * 5
+              n = len(days)
+              pts = [(L + cw * i / (n - 1), T + ch - ch * c / ymax) for i, (_, c) in enumerate(days)]
+
+              if theme == "dark":
+                  text, sub, grid = "#D6EFFF", "#8FA6C6", "#1B2A44"
+                  stops = [("0", "#1E5AA8"), ("1", "#7EC8FF")]
+                  area_top, area_bot, dot = "#7EC8FF", "#0A1F44", "#D6EFFF"
+              else:
+                  text, sub, grid = "#0A1F44", "#4B5E7F", "#DCE6F3"
+                  stops = [("0", "#0A1F44"), ("1", "#4A9BE8")]
+                  area_top, area_bot, dot = "#4A9BE8", "#FFFFFF", "#0A1F44"
+
+              s = []
+              s.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" font-family="Segoe UI, Helvetica, Arial, sans-serif">' % (W, H, W, H))
+              s.append('<defs>')
+              s.append('<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="%d" y1="0" x2="%d" y2="0">%s</linearGradient>' % (
+                  L, W - R, "".join('<stop offset="%s" stop-color="%s"/>' % st for st in stops)))
+              s.append('<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="%s" stop-opacity="0.45"/><stop offset="1" stop-color="%s" stop-opacity="0"/></linearGradient>' % (area_top, area_bot))
+              s.append('</defs>')
+              s.append('<text x="%d" y="34" font-size="20" font-weight="600" fill="%s">Contribution Activity</text>' % (L, text))
+              s.append('<text x="%d" y="54" font-size="12" fill="%s">Last %d days - %d contributions</text>' % (L, sub, DAYS, sum(counts)))
+              step = ymax // 5
+              for k in range(6):
+                  v = k * step
+                  y = T + ch - ch * v / ymax
+                  s.append('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="%s" stroke-width="1"/>' % (L, y, W - R, y, grid))
+                  s.append('<text x="%d" y="%.1f" font-size="11" text-anchor="end" fill="%s">%d</text>' % (L - 8, y + 4, sub, v))
+              for i, (dstr, _) in enumerate(days):
+                  if i % 5 == 0 or i == n - 1:
+                      dd = datetime.date.fromisoformat(dstr)
+                      s.append('<text x="%.1f" y="%d" font-size="11" text-anchor="middle" fill="%s">%s</text>' % (
+                          pts[i][0], H - 20, sub, dd.strftime("%d %b")))
+              path = smooth_path(pts, T + ch, T)
+              s.append('<path d="%s L%.1f,%.1f L%.1f,%.1f Z" fill="url(#ar)"/>' % (path, pts[-1][0], T + ch, pts[0][0], T + ch))
+              s.append('<path d="%s" fill="none" stroke="url(#ln)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>' % path)
+              for (x, y), (_, c) in zip(pts, days):
+                  if c > 0:
+                      s.append('<circle cx="%.1f" cy="%.1f" r="3.5" fill="%s"/>' % (x, y, dot))
+              s.append('</svg>')
+              return "\n".join(s)
+
+
+          days = fetch_days()
+          os.makedirs(OUT, exist_ok=True)
+          for theme, name in (("dark", "activity-graph-dark.svg"), ("light", "activity-graph.svg")):
+              with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
+                  f.write(render(days, theme))
+          print("OK", len(days), "days,", sum(c for _, c in days), "contributions")
+          PY
+
+      # 4) Simpan semua hasil ke branch "output"
       - name: Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
