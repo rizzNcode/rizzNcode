@@ -51,13 +51,13 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 ## 🛠️ Languages & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,react,typescript,js,python,nodejs,express&perline=9" alt="Languages & frameworks" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,js,typescript,python,nodejs,express&perline=9" alt="Languages & frameworks" />
 </p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,nextjs,vue,tailwind,figma&perline=9" alt="Frontend & design" />
+  <img src="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9" alt="Frontend & design" />
 </p>
 <p align="left">
- <img src="https://skillicons.dev/icons?i=postgres,mysql,postman,git&perline=9" alt="Backend, cloud & tools" />
+ <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,postman,github&perline=9" alt="Backend, cloud & tools" />
 </p>
 
 ---
