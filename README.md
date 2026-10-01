@@ -1,12 +1,12 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20%26%20Backend%20Developer%20%7C%20Indonesia&descSize=18&descAlignY=58" alt="header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20and%20Backend%20Developer%20-%20Indonesia&descSize=18&descAlignY=58" alt="header" width="100%" />
 </p>
 
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://github.com/rizznavycode">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Building+robust+Backend+Systems;Learning+System+Architecture+%26+UI%2FUX" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Building+robust+Backend+Systems;Learning+System+Architecture+and+UI+UX+Design" alt="Typing SVG" />
   </a>
 </p>
 
