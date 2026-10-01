@@ -54,10 +54,10 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <img src="https://skillicons.dev/icons?i=dart,flutter,androidstudio,react,typescript,js,python,nodejs,express&perline=9" alt="Languages & frameworks" />
 </p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs,vue,tailwind,html,css,unity,figma&perline=9" alt="Frontend & design" />
+  <img src="https://skillicons.dev/icons?i=html,css,nextjs,vue,tailwind,figma&perline=9" alt="Frontend & design" />
 </p>
 <p align="left">
- <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,gcp,postman,git&perline=9" alt="Backend, cloud & tools" />
+ <img src="https://skillicons.dev/icons?i=postgres,mysql,postman,git&perline=9" alt="Backend, cloud & tools" />
 </p>
 
 ---
