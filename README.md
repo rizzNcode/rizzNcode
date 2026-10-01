@@ -12,7 +12,7 @@
 
 <!-- BADGES -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rizznavycode&label=Profile%20Views&color=6c8eef&style=for-the-badge" alt="Profile views" />
+   <img src="https://hits.sh/github.com/rizznavycode.svg?style=for-the-badge&color=6c8eef&label=Profile%20Views" alt="Profile views" />
   <a href="https://github.com/rizznavycode?tab=followers"><img src="https://img.shields.io/github/followers/rizznavycode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
   <a href="https://github.com/rizznavycode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizznavycode&query=$.public_repos&label=Total%20Repos&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
   <a href="https://github.com/rizznavycode?tab=stars"><img src="https://img.shields.io/github/stars/rizznavycode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
