@@ -6,7 +6,7 @@
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://github.com/rizznavycode">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter;Exploring+UI%2FUX+Design+and+System+Architecture" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+Design+and+System+Architecture" alt="Typing SVG" />
   </a>
 </p>
 
