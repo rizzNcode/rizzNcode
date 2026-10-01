@@ -22,7 +22,7 @@
 
 ## 🙋‍♂️ About Me
 
-I'm from **Indonesia 🇮🇩**, and I'm really passionate about software development, particularly in **mobile development** and **backend development**.
+I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turning ideas into apps. Right now, I'm exploring **UI/UX design** and **system architecture** to build products that are both beautiful and well-structured.
 
 | | |
 |---|---|
