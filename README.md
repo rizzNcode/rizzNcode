@@ -1,30 +1,123 @@
-<div align="center">
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20%26%20Backend%20Developer%20%7C%20Indonesia&descSize=18&descAlignY=58" alt="header" width="100%" />
+</p>
 
-  <h1>Hi 👋, I'm Rizki Adittya Paturohman</h1>
-  <h3>Mobile & Backend Developer from Indonesia 🇮🇩</h3>
+<!-- TYPING ANIMATION -->
+<p align="center">
+  <a href="https://github.com/rizznavycode">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Building+robust+Backend+Systems;Learning+System+Architecture+%26+UI%2FUX" alt="Typing SVG" />
+  </a>
+</p>
 
-  <p>
-    <a href="https://rizkiadittya.vercel.app"><b>🌐 Personal Website</b></a> •
-    <a href="https://gob-blog.vercel.app"><b>📝 Personal Blog</b></a> •
-    <a href="https://linkedin.com/in/rizkiadittyapaturohman"><b>💼 LinkedIn</b></a>
-  </p>
+<!-- BADGES -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rizznavycode&label=Profile%20Views&color=6c8eef&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/rizznavycode?tab=followers"><img src="https://img.shields.io/github/followers/rizznavycode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
+  <a href="https://github.com/rizznavycode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizznavycode&query=$.public_repos&label=Total%20Repos&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
+  <a href="https://github.com/rizznavycode?tab=stars"><img src="https://img.shields.io/github/stars/rizznavycode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
+</p>
 
-  <p>
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=rizznavycode&theme=tokyonight&margin-w=15&row=1" alt="rizznavycode trophies" />
-    </a>
-  </p>
+---
 
-</div>
+## 🙋‍♂️ About Me
 
-<hr />
+I'm from **Indonesia 🇮🇩**, and I'm really passionate about software development, particularly in **mobile development** and **backend development**.
 
-### 🚀 About Me
+| | |
+|---|---|
+| 🔭 **Currently working on** | [Mansio](https://maniso.com) |
+| 🌱 **Currently learning** | System Architecture & UI/UX Design |
+| 🤝 **Looking for help with** | [PaduanRasa](https://paduanrasa.page.dev) |
+| 📝 **Blog** | [GoBlog](https://gob-blog.vercel.app) |
+| 🌐 **Portfolio** | [rizkiadittya.vercel.app](https://rizkiadittya.vercel.app) |
+| 💬 **Ask me about** | Mobile Development |
+| 📫 **Reach me** | [rizkiadittya2006@gmail.com](mailto:rizkiadittya2006@gmail.com) · [rizkiadittyapaturohman@gmail.com](mailto:rizkiadittyapaturohman@gmail.com) |
+| ⚡ **Fun fact** | I love the calm vibes, fresh air, and petrichor right after the rain 🌧️✨ |
 
-```text
-- 🔭 Working on         : Mansio ([https://maniso.com](https://maniso.com))
-- 🌱 Currently learning : System Architecture & UI/UX Design
-- 🤝 Looking for help   : PaduanRasa ([https://paduanrasa.page.dev](https://paduanrasa.page.dev))
-- 💬 Ask me about       : Mobile & Backend Development
-- 📫 How to reach me    : rizkiadittya2006@gmail.com | rizkiadittyapaturohman@gmail.com
-- ⚡ Fun fact           : I love the calm vibes, fresh air, and petrichor right after the rain 🌧️✨
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/rizkiadittyapaturohman"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/rizkiadittyaa_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://medium.com/@lovelacee"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://rizkiadittya.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6c8eef?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:rizkiadittya2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+---
+
+## 🛠️ Languages & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=dart,flutter,androidstudio,react,typescript,js,python,nodejs,express&perline=9" alt="Languages & frameworks" />
+</p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,vue,tailwind,html,css,unity,figma&perline=9" alt="Frontend & design" />
+</p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,mariadb,redis,aws,gcp,postman,git&perline=10" alt="Backend, cloud & tools" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+> 💡 Replace `repo=` values below with your actual repository names.
+
+<p align="center">
+  <a href="https://github.com/rizznavycode/Mansio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=Mansio&theme=tokyonight&hide_border=true&border_radius=10" alt="Mansio" />
+  </a>
+  <a href="https://github.com/rizznavycode/PaduanRasa">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=PaduanRasa&theme=tokyonight&hide_border=true&border_radius=10" alt="PaduanRasa" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/rizznavycode/GoBlog">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=GoBlog&theme=tokyonight&hide_border=true&border_radius=10" alt="GoBlog" />
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rizznavycode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizznavycode&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top languages" />
+</p>
+
+### 🔥 Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=rizznavycode&theme=tokyonight&hide_border=true&border_radius=10" alt="Contribution streak" />
+</p>
+
+### 📈 Contribution Activity Graph (Commits)
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rizznavycode&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" width="100%" />
+</p>
+
+### 🗓️ Contribution Calendar
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/6c8eef/rizznavycode" alt="Contribution calendar" width="100%" />
+</p>
+
+### 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rizznavycode&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7" alt="GitHub trophies" />
+</p>
+
+---
+
+<p align="center">
+  <i>"Code is like petrichor — best when it comes after a little storm."</i> 🌧️
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer" width="100%" />
