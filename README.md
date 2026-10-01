@@ -106,10 +106,14 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <img src="https://ghchart.rshah.org/6c8eef/rizznavycode" alt="Contribution calendar" width="100%" />
 </p>
 
-### 🏆 Trophies
+### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rizznavycode&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7" alt="GitHub trophies" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake-dark.svg" width="100%" />
+  </picture>
 </p>
 
 ---
