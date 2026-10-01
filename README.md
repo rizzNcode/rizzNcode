@@ -12,8 +12,7 @@
 
 <!-- BADGES -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rizznavycode&label=Profile%20Views&color=6c8eef&style=for-the-badge" alt="Profile views" />
-  <a href="https://github.com/rizznavycode?tab=followers"><img src="https://img.shields.io/github/followers/rizznavycode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
+  <a href="https://github.com/rizznavycode?tab=followers"><img src="https://img.shields.io/github/followers/rizznavycode?label=Followers&style=for-the-badge&logo=github&c
   <a href="https://github.com/rizznavycode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizznavycode&query=$.public_repos&label=Total%20Repos&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
   <a href="https://github.com/rizznavycode?tab=stars"><img src="https://img.shields.io/github/stars/rizznavycode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
 </p>
@@ -42,9 +41,9 @@ I'm from **Indonesia 🇮🇩**, and I'm really passionate about software develo
 <p align="left">
   <a href="https://linkedin.com/in/rizkiadittyapaturohman"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://instagram.com/rizkiadittyaa_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://medium.com/@lovelacee"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://rizkiadittya.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6c8eef?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:rizkiadittya2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+   <a href="https://medium.com/@lovelacee"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 </p>
 
 ---
@@ -68,16 +67,16 @@ I'm from **Indonesia 🇮🇩**, and I'm really passionate about software develo
 > 💡 Replace `repo=` values below with your actual repository names.
 
 <p align="center">
-  <a href="https://github.com/rizznavycode/Mansio">
+  <a href="https://github.com/rizznavycode/id-music-app">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=Mansio&theme=tokyonight&hide_border=true&border_radius=10" alt="Mansio" />
   </a>
-  <a href="https://github.com/rizznavycode/PaduanRasa">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=PaduanRasa&theme=tokyonight&hide_border=true&border_radius=10" alt="PaduanRasa" />
+  <a href="https://github.com/rizznavycode/PaduanRasa](https://github.com/rizznavycode/mansio-real-estate-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=PaduanRasa&theme=tokyonight&hide_border=true&border_radius=10" alt="Mansio" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/rizznavycode/GoBlog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=GoBlog&theme=tokyonight&hide_border=true&border_radius=10" alt="GoBlog" />
+  <a href="https://github.com/rizznavycode/financeKu">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=GoBlog&theme=tokyonight&hide_border=true&border_radius=10" alt="FinanceKu" />
   </a>
 </p>
 
