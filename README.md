@@ -58,7 +58,7 @@ I'm from **Indonesia 🇮🇩**, and I'm really passionate about software develo
   <img src="https://skillicons.dev/icons?i=nextjs,vue,tailwind,html,css,unity,figma&perline=9" alt="Frontend & design" />
 </p>
 <p align="left">
- <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,redis,aws,gcp,postman,git&perline=9" alt="Backend, cloud & tools" />
+ <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,gcp,postman,git&perline=9" alt="Backend, cloud & tools" />
 </p>
 
 ---
