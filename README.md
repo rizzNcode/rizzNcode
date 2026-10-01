@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rizki Adittya Paturohman</h1>
 <h3 align="center">I'm from Indonesia, and I'm really passionate about software development, particularly in the fields of mobile development and backend development.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rizznavycode&label=Profile%20views&color=0e75b6&style=flat" alt="rizznavycode" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rizznavycode" alt="rizznavycode" /></a> </p>
 
 - 🔭 I’m currently working on [Mansio](https://maniso.com)
@@ -23,7 +21,6 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/rizkiadittyaa_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="rizkiadittyaa_" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/rizkiadittyapaturohman" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rizkiadittyapaturohman" height="30" width="40" /></a>
 <a href="https://instagram.com/rizkiadittyaa_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rizkiadittyaa_" height="30" width="40" /></a>
 <a href="https://medium.com/@lovelacee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@lovelacee" height="30" width="40" /></a>
