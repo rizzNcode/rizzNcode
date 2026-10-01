@@ -44,7 +44,6 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <a href="https://instagram.com/rizkiadittyaa_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://rizkiadittya.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6c8eef?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:rizkiadittya2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-   <a href="https://medium.com/@lovelacee"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 </p>
 
 ---
