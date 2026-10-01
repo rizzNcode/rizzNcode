@@ -5,17 +5,17 @@
 
 <!-- TYPING ANIMATION -->
 <p align="center">
-  <a href="https://github.com/rizznavycode">
+  <a href="https://github.com/rizzNcode">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+Design+and+System+Architecture" alt="Typing SVG" />
   </a>
 </p>
 
 <!-- BADGES -->
 <p align="center">
-   <img src="https://hits.sh/github.com/rizznavycode.svg?style=for-the-badge&color=6c8eef&label=Profile%20Views" alt="Profile views" />
-  <a href="https://github.com/rizznavycode?tab=followers"><img src="https://img.shields.io/github/followers/rizznavycode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
-  <a href="https://github.com/rizznavycode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizznavycode&query=$.public_repos&label=Total%20Repos&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
-  <a href="https://github.com/rizznavycode?tab=stars"><img src="https://img.shields.io/github/stars/rizznavycode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
+   <img src="https://hits.sh/github.com/rizzNcode.svg?style=for-the-badge&color=6c8eef&label=Profile%20Views" alt="Profile views" />
+  <a href="https://github.com/rizzNcode?tab=followers"><img src="https://img.shields.io/github/followers/rizzNcode?label=Followers&style=for-the-badge&logo=github&color=6c8eef" alt="Followers" /></a>
+  <a href="https://github.com/rizzNcode?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rizzNycode&query=$.public_repos&label=Total%20Repos&style=for-the-badge&logo=github&color=6c8eef" alt="Total repos" /></a>
+  <a href="https://github.com/rizzNcode?tab=stars"><img src="https://img.shields.io/github/stars/rizzNcode?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&logo=github&color=6c8eef" alt="Stars" /></a>
 </p>
 
 ---
@@ -65,16 +65,16 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/rizznavycode/id-music-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=id-music-app&theme=tokyonight&hide_border=true&border_radius=10" alt="id-music-app" />
+  <a href="https://github.com/rizzNcode/id-music-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=id-music-app&theme=tokyonight&hide_border=true&border_radius=10" alt="id-music-app" />
   </a>
-  <a href="https://github.com/rizznavycode/mansio-real-estate-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=mansio-real-estate-app&theme=tokyonight&hide_border=true&border_radius=10" alt="mansio-real-estate-app" />
+  <a href="https://github.com/rizzNcode/mansio-real-estate-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=mansio-real-estate-app&theme=tokyonight&hide_border=true&border_radius=10" alt="mansio-real-estate-app" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/rizznavycode/financeKu">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizznavycode&repo=financeKu&theme=tokyonight&hide_border=true&border_radius=10" alt="financeKu" />
+  <a href="https://github.com/rizzNcode/financeKu">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=financeKu&theme=tokyonight&hide_border=true&border_radius=10" alt="financeKu" />
   </a>
 </p>
 
@@ -83,35 +83,35 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rizznavycode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizznavycode&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rizzNcode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizzNcode&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top languages" />
 </p>
 
 ### 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=rizznavycode&theme=tokyonight&hide_border=true&border_radius=10" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com/?user=rizzNcode&theme=tokyonight&hide_border=true&border_radius=10" alt="Contribution streak" />
 </p>
 
 ### 📈 Contribution Activity Graph (Commits)
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rizznavycode&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rizzNcode&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" width="100%" />
 </p>
 
 ### 🗓️ Contribution Calendar
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/6c8eef/rizznavycode" alt="Contribution calendar" width="100%" />
+  <img src="https://ghchart.rshah.org/6c8eef/rizzNcode" alt="Contribution calendar" width="100%" />
 </p>
 
 ### 🐍 Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/rizznavycode/rizznavycode/output/github-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rizzNcode/rizzNcode/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rizzNcode/rizzNcode/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/rizzNcode/rizzNcode/output/github-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
