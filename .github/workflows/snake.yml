@@ -1,9 +1,12 @@
 name: Generate Snake
 
 on:
+  # jalan otomatis setiap 12 jam
   schedule:
     - cron: "0 */12 * * *"
+  # bisa dijalankan manual dari tab Actions
   workflow_dispatch:
+  # jalan juga setiap ada push ke branch main
   push:
     branches:
       - main
@@ -16,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # 1) Buat SVG ular dengan palet biru (navy -> biru muda)
+      #    color_dots = warna kotak kosong, lalu 4 level kontribusi (gelap -> terang)
       - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -24,6 +29,7 @@ jobs:
             dist/github-snake-dark.svg?color_snake=#7EC8FF&color_dots=#161b22,#12397A,#1E5AA8,#4A9BE8,#7EC8FF
             dist/github-snake.svg?color_snake=#1E5AA8&color_dots=#ebedf0,#A8D4FF,#5BA8F0,#1E5AA8,#0A1F44
 
+      # 2) Beri badan ular warna gradasi (kepala -> ekor) supaya tidak satu warna
       - name: Apply gradient to snake body
         run: |
           # versi dark: kepala biru sangat muda -> ekor navy
@@ -31,6 +37,7 @@ jobs:
           # versi light: kepala navy -> ekor biru muda
           sed -i 's|</style>|.s.s0{fill:#0A1F44}.s.s1{fill:#12397A}.s.s2{fill:#1E5AA8}.s.s3{fill:#4A9BE8}.s.s4,.s.s5,.s.s6,.s.s7,.s.s8,.s.s9{fill:#7EC8FF}</style>|' dist/github-snake.svg
 
+      # 3) Simpan hasilnya ke branch "output"
       - name: Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
