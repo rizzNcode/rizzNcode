@@ -32,7 +32,7 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 | 📝 **Blog** | [GoBlog](https://gob-blog.vercel.app) |
 | 🌐 **Portfolio** | [rizkiadittya.vercel.app](https://rizkiadittya.vercel.app) |
 | 💬 **Ask me about** | Mobile Development |
-| 📫 **Reach me** | [rizkiadittya2006@gmail.com](mailto:rizkiadittya2006@gmail.com) ||| [rizkiadittyapaturohman@gmail.com](mailto:rizkiadittyapaturohman@gmail.com) |
+| 📫 **Reach me** | [rizkiadittya2006@gmail.com](mailto:rizkiadittya2006@gmail.com) '|' [rizkiadittyapaturohman@gmail.com](mailto:rizkiadittyapaturohman@gmail.com) |
 | ⚡ **Fun fact** | I love the calm vibes, fresh air, and petrichor right after the rain 🌧️✨ |
 
 ---
