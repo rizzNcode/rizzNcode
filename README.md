@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20and%20Backend%20Developer%20-%20Indonesia&descSize=18&descAlignY=58" alt="header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20Developer%20%7C%20Exploring%20UI%2FUX%20and%20System%20Architecture&descSize=18&descAlignY=58" alt="header" width="100%" />
 </p>
 
 <!-- TYPING ANIMATION -->
@@ -58,7 +58,7 @@ I'm from **Indonesia 🇮🇩**, and I'm really passionate about software develo
   <img src="https://skillicons.dev/icons?i=nextjs,vue,tailwind,html,css,unity,figma&perline=9" alt="Frontend & design" />
 </p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,mariadb,redis,aws,gcp,postman,git&perline=10" alt="Backend, cloud & tools" />
+ <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mysql,redis,aws,gcp,postman,git&perline=9" alt="Backend, cloud & tools" />
 </p>
 
 ---
