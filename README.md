@@ -1,12 +1,20 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20Developer%20%7C%20Exploring%20UI%2FUX%20and%20System%20Architecture&descSize=18&descAlignY=58" alt="header" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&fontColor=ffffff&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&animation=fadeIn&fontAlignY=36&desc=Mobile%20Developer%20%7C%20Exploring%20UI%2FUX%20and%20System%20Architecture&descSize=18&descAlignY=58" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:DCEEFF,50:9CCBFF,100:5BA8F0&fontColor=0A1F44&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&animation=fadeIn&fontAlignY=36&desc=Mobile%20Developer%20%7C%20Exploring%20UI%2FUX%20and%20System%20Architecture&descSize=18&descAlignY=58" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&fontColor=ffffff&height=200&section=header&text=Rizki%20Adittya%20Paturohman&fontSize=40&animation=fadeIn&fontAlignY=36&desc=Mobile%20Developer%20%7C%20Exploring%20UI%2FUX%20and%20System%20Architecture&descSize=18&descAlignY=58" alt="header" width="100%" />
+  </picture>
 </p>
 
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://github.com/rizzNcode">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+and+System+Architecture" alt="Typing SVG" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+and+System+Architecture" />
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=1E5AA8&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+and+System+Architecture" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Rizki!;Passionate+about+Mobile+Development;Crafting+Mobile+Apps+with+Flutter+and+Expo;Exploring+UI%2FUX+and+System+Architecture" alt="Typing SVG" />
+    </picture>
   </a>
 </p>
 
@@ -51,13 +59,25 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 ## 🛠️ Languages & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,js,typescript,python,nodejs,express&perline=9" alt="Languages & frameworks" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter,dart,androidstudio,js,typescript,python,nodejs,express&perline=9&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=flutter,dart,androidstudio,js,typescript,python,nodejs,express&perline=9&theme=light" />
+    <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,js,typescript,python,nodejs,express&perline=9&theme=dark" alt="Languages & frameworks" />
+  </picture>
 </p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9" alt="Frontend & design" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9&theme=light" />
+    <img src="https://skillicons.dev/icons?i=html,css,nextjs,react,vue,tailwind,figma&perline=9&theme=dark" alt="Frontend & design" />
+  </picture>
 </p>
 <p align="left">
- <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,postman,github&perline=9" alt="Backend, cloud & tools" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,postman,github&perline=9&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,postman,github&perline=9&theme=light" />
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,postman,github&perline=9&theme=dark" alt="Backend, cloud & tools" />
+  </picture>
 </p>
 
 ---
@@ -66,15 +86,27 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 
 <p align="center">
   <a href="https://github.com/rizzNcode/id-music-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=id-music-app&theme=tokyonight&hide_border=true&border_radius=10" alt="id-music-app" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=id-music-app&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=id-music-app&bg_color=F3F8FF&title_color=1E5AA8&text_color=0A1F44&icon_color=4A9BE8&ring_color=1E5AA8&hide_border=true&border_radius=10" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=id-music-app&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" alt="id-music-app" />
+    </picture>
   </a>
   <a href="https://github.com/rizzNcode/mansio-real-estate-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=mansio-real-estate-app&theme=tokyonight&hide_border=true&border_radius=10" alt="mansio-real-estate-app" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=mansio-real-estate-app&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=mansio-real-estate-app&bg_color=F3F8FF&title_color=1E5AA8&text_color=0A1F44&icon_color=4A9BE8&ring_color=1E5AA8&hide_border=true&border_radius=10" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=mansio-real-estate-app&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" alt="mansio-real-estate-app" />
+    </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/rizzNcode/financeKu">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=financeKu&theme=tokyonight&hide_border=true&border_radius=10" alt="financeKu" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=financeKu&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=financeKu&bg_color=F3F8FF&title_color=1E5AA8&text_color=0A1F44&icon_color=4A9BE8&ring_color=1E5AA8&hide_border=true&border_radius=10" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizzNcode&repo=financeKu&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" alt="financeKu" />
+    </picture>
   </a>
 </p>
 
@@ -83,14 +115,26 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rizzNcode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizzNcode&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rizzNcode&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rizzNcode&show_icons=true&count_private=true&include_all_commits=true&bg_color=F3F8FF&title_color=1E5AA8&text_color=0A1F44&icon_color=4A9BE8&ring_color=1E5AA8&hide_border=true&border_radius=10" />
+    <img src="https://github-readme-stats.vercel.app/api?username=rizzNcode&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" alt="GitHub stats" height="180" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rizzNcode&layout=compact&langs_count=8&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rizzNcode&layout=compact&langs_count=8&bg_color=F3F8FF&title_color=1E5AA8&text_color=0A1F44&icon_color=4A9BE8&ring_color=1E5AA8&hide_border=true&border_radius=10" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizzNcode&layout=compact&langs_count=8&bg_color=0D1B33&title_color=7EC8FF&text_color=D6EFFF&icon_color=4A9BE8&ring_color=7EC8FF&hide_border=true&border_radius=10" alt="Top languages" height="180" />
+  </picture>
 </p>
 
 ### 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=rizzNcode&theme=tokyonight&hide_border=true&border_radius=10" alt="Contribution streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rizzNcode&background=0D1B33&ring=4A9BE8&fire=7EC8FF&currStreakNum=D6EFFF&sideNums=D6EFFF&currStreakLabel=7EC8FF&sideLabels=7EC8FF&dates=8FA6C6&stroke=1E3A6B&hide_border=true&border_radius=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=rizzNcode&background=F3F8FF&ring=1E5AA8&fire=4A9BE8&currStreakNum=0A1F44&sideNums=0A1F44&currStreakLabel=1E5AA8&sideLabels=1E5AA8&dates=4B5E7F&stroke=C9DDF5&hide_border=true&border_radius=10" />
+    <img src="https://streak-stats.demolab.com/?user=rizzNcode&background=0D1B33&ring=4A9BE8&fire=7EC8FF&currStreakNum=D6EFFF&sideNums=D6EFFF&currStreakLabel=7EC8FF&sideLabels=7EC8FF&dates=8FA6C6&stroke=1E3A6B&hide_border=true&border_radius=10" alt="Contribution streak" />
+  </picture>
 </p>
 
 ### 📈 Contribution Activity
@@ -125,4 +169,8 @@ I'm from **Indonesia 🇮🇩**, and I'm a **mobile developer** who loves turnin
   <i>"Code is like petrichor — best when it comes after a little storm."</i> 🌧️
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&height=100&section=footer" alt="footer" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&height=100&section=footer" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:DCEEFF,50:9CCBFF,100:5BA8F0&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,55:1E5AA8,100:7EC8FF&height=100&section=footer" alt="footer" width="100%" />
+</picture>
