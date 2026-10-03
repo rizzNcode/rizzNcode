@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="870" y2="0"><stop offset="0" stop-color="#1E5AA8"/><stop offset="1" stop-color="#7EC8FF"/></linearGradient>
+<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7EC8FF" stop-opacity="0.45"/><stop offset="1" stop-color="#0A1F44" stop-opacity="0"/></linearGradient>
+</defs>
+<text x="50" y="34" font-size="20" font-weight="600" fill="#D6EFFF">Contribution Activity</text>
+<text x="50" y="54" font-size="12" fill="#8FA6C6">Last 30 days - 65 contributions</text>
+<line x1="50" y1="270.0" x2="870" y2="270.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="274.0" font-size="11" text-anchor="end" fill="#8FA6C6">0</text>
+<line x1="50" y1="230.0" x2="870" y2="230.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="234.0" font-size="11" text-anchor="end" fill="#8FA6C6">9</text>
+<line x1="50" y1="190.0" x2="870" y2="190.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="194.0" font-size="11" text-anchor="end" fill="#8FA6C6">18</text>
+<line x1="50" y1="150.0" x2="870" y2="150.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="154.0" font-size="11" text-anchor="end" fill="#8FA6C6">27</text>
+<line x1="50" y1="110.0" x2="870" y2="110.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="114.0" font-size="11" text-anchor="end" fill="#8FA6C6">36</text>
+<line x1="50" y1="70.0" x2="870" y2="70.0" stroke="#1B2A44" stroke-width="1"/>
+<text x="42" y="74.0" font-size="11" text-anchor="end" fill="#8FA6C6">45</text>
+<text x="50.0" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">04 Sep</text>
+<text x="191.4" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">09 Sep</text>
+<text x="332.8" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">14 Sep</text>
+<text x="474.1" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">19 Sep</text>
+<text x="615.5" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">24 Sep</text>
+<text x="756.9" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">29 Sep</text>
+<text x="870.0" y="300" font-size="11" text-anchor="middle" fill="#8FA6C6">03 Oct</text>
+<path d="M50.0,270.0 C54.7,270.0 68.9,270.0 78.3,270.0 C87.7,270.0 97.1,270.0 106.6,270.0 C116.0,270.0 125.4,270.0 134.8,270.0 C144.3,270.0 153.7,270.0 163.1,270.0 C172.5,270.0 182.0,270.0 191.4,270.0 C200.8,270.0 210.2,270.0 219.7,270.0 C229.1,270.0 238.5,270.0 247.9,270.0 C257.4,269.3 266.8,265.6 276.2,265.6 C285.6,265.6 295.1,269.3 304.5,270.0 C313.9,270.0 323.3,270.0 332.8,270.0 C342.2,270.0 351.6,270.0 361.0,270.0 C370.5,270.0 379.9,270.0 389.3,270.0 C398.7,270.0 408.2,270.0 417.6,270.0 C427.0,270.0 436.4,270.0 445.9,270.0 C455.3,270.0 464.7,270.0 474.1,270.0 C483.6,270.0 493.0,270.0 502.4,270.0 C511.8,270.0 521.3,270.0 530.7,270.0 C540.1,268.5 549.5,261.1 559.0,261.1 C568.4,261.1 577.8,268.5 587.2,270.0 C596.7,270.0 606.1,270.0 615.5,270.0 C624.9,268.5 634.4,261.1 643.8,261.1 C653.2,261.1 662.6,268.5 672.1,270.0 C681.5,270.0 690.9,270.0 700.3,270.0 C709.8,270.0 719.2,270.0 728.6,270.0 C738.0,269.3 747.5,267.8 756.9,265.6 C766.3,263.3 775.7,270.0 785.2,256.7 C794.6,224.1 804.0,73.7 813.4,70.0 C822.9,70.0 832.3,203.3 841.7,234.4 C851.1,265.6 865.3,253.0 870.0,256.7 L870.0,270.0 L50.0,270.0 Z" fill="url(#ar)"/>
+<path d="M50.0,270.0 C54.7,270.0 68.9,270.0 78.3,270.0 C87.7,270.0 97.1,270.0 106.6,270.0 C116.0,270.0 125.4,270.0 134.8,270.0 C144.3,270.0 153.7,270.0 163.1,270.0 C172.5,270.0 182.0,270.0 191.4,270.0 C200.8,270.0 210.2,270.0 219.7,270.0 C229.1,270.0 238.5,270.0 247.9,270.0 C257.4,269.3 266.8,265.6 276.2,265.6 C285.6,265.6 295.1,269.3 304.5,270.0 C313.9,270.0 323.3,270.0 332.8,270.0 C342.2,270.0 351.6,270.0 361.0,270.0 C370.5,270.0 379.9,270.0 389.3,270.0 C398.7,270.0 408.2,270.0 417.6,270.0 C427.0,270.0 436.4,270.0 445.9,270.0 C455.3,270.0 464.7,270.0 474.1,270.0 C483.6,270.0 493.0,270.0 502.4,270.0 C511.8,270.0 521.3,270.0 530.7,270.0 C540.1,268.5 549.5,261.1 559.0,261.1 C568.4,261.1 577.8,268.5 587.2,270.0 C596.7,270.0 606.1,270.0 615.5,270.0 C624.9,268.5 634.4,261.1 643.8,261.1 C653.2,261.1 662.6,268.5 672.1,270.0 C681.5,270.0 690.9,270.0 700.3,270.0 C709.8,270.0 719.2,270.0 728.6,270.0 C738.0,269.3 747.5,267.8 756.9,265.6 C766.3,263.3 775.7,270.0 785.2,256.7 C794.6,224.1 804.0,73.7 813.4,70.0 C822.9,70.0 832.3,203.3 841.7,234.4 C851.1,265.6 865.3,253.0 870.0,256.7" fill="none" stroke="url(#ln)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="276.2" cy="265.6" r="3.5" fill="#D6EFFF"/>
+<circle cx="559.0" cy="261.1" r="3.5" fill="#D6EFFF"/>
+<circle cx="643.8" cy="261.1" r="3.5" fill="#D6EFFF"/>
+<circle cx="756.9" cy="265.6" r="3.5" fill="#D6EFFF"/>
+<circle cx="785.2" cy="256.7" r="3.5" fill="#D6EFFF"/>
+<circle cx="813.4" cy="70.0" r="3.5" fill="#D6EFFF"/>
+<circle cx="841.7" cy="234.4" r="3.5" fill="#D6EFFF"/>
+<circle cx="870.0" cy="256.7" r="3.5" fill="#D6EFFF"/>
+</svg>
