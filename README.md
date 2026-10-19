@@ -8,5 +8,5 @@
 </p>
 
 <p align="center">
-  <img src="./.github/workflows/bug-hunter-dark.svg" alt="Bug Hunter" width="100%" />
+  <img src="./.github/workflows/quest.svg" alt="Bug Hunter" width="100%" />
 </p>
