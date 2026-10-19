@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446" height="498" viewBox="0 0 446 498" role="img" aria-label="Potret ASCII Rizki dalam jendela terminal">
+  <defs>
+    <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="0" y1="42" x2="0" y2="464">
+      <stop offset="0" stop-color="#7EC8FF"/>
+      <stop offset="0.55" stop-color="#4FD8FF"/>
+      <stop offset="1" stop-color="#1E5AA8"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7EC8FF"/>
+      <stop offset="1" stop-color="#1E5AA8"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#0B1B33"/>
+      <stop offset="1" stop-color="#050B16"/>
+    </radialGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.28"/>
+    </pattern>
+    <clipPath id="win"><rect x="1.5" y="1.5" width="443" height="495" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .r { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, "Courier New", monospace;
+         font-size: 6.3px; fill: url(#ink); opacity: 0; animation: show .35s ease-out forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .t { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, "Courier New", monospace; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes sweep { from { transform: translateY(0); } to { transform: translateY(498px); } }
+    .sweep { animation: sweep 6s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { .r { animation: none; opacity: 1; } .cursor, .sweep { animation: none; } }
+  </style>
+
+  <!-- jendela -->
+  <rect x="1.5" y="1.5" width="443" height="495" rx="14" fill="url(#bg)" stroke="url(#frame)" stroke-width="2"/>
+
+  <g clip-path="url(#win)">
+    <!-- title bar -->
+    <rect x="0" y="0" width="446" height="30" fill="#0E2547"/>
+    <line x1="0" y1="30" x2="446" y2="30" stroke="#1E5AA8" stroke-width="1"/>
+    <circle cx="22" cy="15" r="5.5" fill="#FF5F57"/>
+    <circle cx="42" cy="15" r="5.5" fill="#FEBC2E"/>
+    <circle cx="62" cy="15" r="5.5" fill="#28C840"/>
+    <text class="t" x="223" y="19" text-anchor="middle" font-size="11" fill="#7EC8FF">rizki/README.md</text>
+
+    <!-- potret ASCII -->
+    <g filter="url(#glow)">
+      <text class="r" x="14" y="84.1" textLength="254.6" lengthAdjust="spacing" style="animation-delay:0.24s" xml:space="preserve">                                               :;:       :;-%*O**+:</text>
+      <text class="r" x="14" y="90.4" textLength="269.8" lengthAdjust="spacing" style="animation-delay:0.28s" xml:space="preserve">                                              x@@@@@o@@@x%O=%@@@@@@@Ox;</text>
+      <text class="r" x="14" y="96.7" textLength="277.4" lengthAdjust="spacing" style="animation-delay:0.32s" xml:space="preserve">                                             -+*@@@@o##@@@++@@@@O@%ox#%O~</text>
+      <text class="r" x="14" y="103.0" textLength="285.0" lengthAdjust="spacing" style="animation-delay:0.36s" xml:space="preserve">                                            ,%Ox;;,--~x+~~*oOx*xox~~*@+@@~,</text>
+      <text class="r" x="14" y="109.3" textLength="292.6" lengthAdjust="spacing" style="animation-delay:0.40s" xml:space="preserve">                                           x#~;:,:;;--;;=;;OO~;O#@@O-=@@*@@@o</text>
+      <text class="r" x="14" y="115.6" textLength="300.2" lengthAdjust="spacing" style="animation-delay:0.44s" xml:space="preserve">                                         ,#x#Ox;;;-~;;;o#x:=O+;o@@o*~;-+;;@@#@:</text>
+      <text class="r" x="14" y="121.9" textLength="304.0" lengthAdjust="spacing" style="animation-delay:0.48s" xml:space="preserve">                                        ,O#@@@@-~~;:-;;-x@;=xO;-*#+-;:;::;%@O@@=</text>
+      <text class="r" x="14" y="128.2" textLength="307.8" lengthAdjust="spacing" style="animation-delay:0.52s" xml:space="preserve">                                        @*%@@@@@@~=;*:=*o:;=@@@@@@--~#~;;~-x%@@@-</text>
+      <text class="r" x="14" y="134.5" textLength="307.8" lengthAdjust="spacing" style="animation-delay:0.56s" xml:space="preserve">                                        o+~:@@@xO~+%@*-o@;;;*@O@@@*-~#~-;=@@%@%o*</text>
+      <text class="r" x="14" y="140.8" textLength="311.6" lengthAdjust="spacing" style="animation-delay:0.60s" xml:space="preserve">                                        %;;:O@%O*#;~@@@@@~;-**@#@@O-=-;;~-x@@@o@@:</text>
+      <text class="r" x="14" y="147.1" textLength="307.8" lengthAdjust="spacing" style="animation-delay:0.64s" xml:space="preserve">                                        O-=x@@+OxO#@@@@@@@@;-;=~o+--@o:;;:;#@*;o@</text>
+      <text class="r" x="14" y="153.4" textLength="307.8" lengthAdjust="spacing" style="animation-delay:0.68s" xml:space="preserve">                                        ~%@#%@@@@@@@@@@@@@@@@@@o;-xx@O=@OO:-;::;o</text>
+      <text class="r" x="14" y="159.7" textLength="307.8" lengthAdjust="spacing" style="animation-delay:0.72s" xml:space="preserve">                                        ,@@@@@@@@@@@@@@@@#o#@@@@@@@@@@@@%+xO=;;*O</text>
+      <text class="r" x="14" y="166.0" textLength="304.0" lengthAdjust="spacing" style="animation-delay:0.76s" xml:space="preserve">                                        :@@@@@O~;;--~==-;;-:;-+=*@@@@@@@@o;#@;;O</text>
+      <text class="r" x="14" y="172.3" textLength="300.2" lengthAdjust="spacing" style="animation-delay:0.80s" xml:space="preserve">                                        ;@@@#,o@@@O*~-;;;--;;;;;;;;:::o@@@@;+;*</text>
+      <text class="r" x="14" y="178.6" textLength="300.2" lengthAdjust="spacing" style="animation-delay:0.84s" xml:space="preserve">                                       ,=@@@,*@@@@@@@@@o--;;---~*x+-;:,o@@@@=x,</text>
+      <text class="r" x="14" y="184.9" textLength="296.4" lengthAdjust="spacing" style="animation-delay:0.88s" xml:space="preserve">                                     *@@@@@;,::-+*+=*O*~;;;;;-~@@@@@@@@o@@@@;,</text>
+      <text class="r" x="14" y="191.2" textLength="292.6" lengthAdjust="spacing" style="animation-delay:0.92s" xml:space="preserve">                                    ,@x-=@@:;:+@@@@@@O;;;;;;;-:;;---~#@@@@@@,</text>
+      <text class="r" x="14" y="197.5" textLength="288.8" lengthAdjust="spacing" style="animation-delay:0.96s" xml:space="preserve">                                     @---@@:;:;O%=@@=@*+*--+o-o#@@@o-;=%@@@;</text>
+      <text class="r" x="14" y="203.8" textLength="288.8" lengthAdjust="spacing" style="animation-delay:1.00s" xml:space="preserve">                                     @~-=@o;;;;;;;;;;;-O+;-@*o@*@@@@@-:;o%**</text>
+      <text class="r" x="14" y="210.1" textLength="296.4" lengthAdjust="spacing" style="animation-delay:1.04s" xml:space="preserve">                                     %*-+@x;;;;;;;;;;;:~-;-#~;-;~*=@@~:;O@@@@x</text>
+      <text class="r" x="14" y="216.4" textLength="296.4" lengthAdjust="spacing" style="animation-delay:1.08s" xml:space="preserve">                                     =@**@+;;;;;;;;;;;=;;;-=;;;;;;;;;::;@@-O#@</text>
+      <text class="r" x="14" y="222.7" textLength="296.4" lengthAdjust="spacing" style="animation-delay:1.12s" xml:space="preserve">                                      @+-@=;;;;;;;;-%@+;;;-@~;;;;;;;;;:-@o-*o@</text>
+      <text class="r" x="14" y="229.0" textLength="296.4" lengthAdjust="spacing" style="animation-delay:1.16s" xml:space="preserve">                                      ;@#o-;;;;;;;;oo~-----@@-;;;;;;;;;@@~;-@;</text>
+      <text class="r" x="14" y="235.3" textLength="292.6" lengthAdjust="spacing" style="animation-delay:1.20s" xml:space="preserve">                                       ,=@;;;;;;;;;~o#@oo@@-@~;;;;;;;;~@@*-x#</text>
+      <text class="r" x="14" y="241.6" textLength="292.6" lengthAdjust="spacing" style="animation-delay:1.24s" xml:space="preserve">                                        ,@;;;;;;-;;;;:-~+~+oo-;;;;;;;-@@===@,</text>
+      <text class="r" x="14" y="247.9" textLength="288.8" lengthAdjust="spacing" style="animation-delay:1.28s" xml:space="preserve">                                        ,@-;;;;~~--~~-=O-;-;;;;;;;;;;~@O+@@,</text>
+      <text class="r" x="14" y="254.2" textLength="281.2" lengthAdjust="spacing" style="animation-delay:1.32s" xml:space="preserve">                                        ,ox;;;;;~@@@@@@O+x+;:;=;;;;;;~@%@=</text>
+      <text class="r" x="14" y="260.5" textLength="269.8" lengthAdjust="spacing" style="animation-delay:1.36s" xml:space="preserve">                                         -%:;;;;--O%~=oo@%@@%;~;;;;;~@:</text>
+      <text class="r" x="14" y="266.8" textLength="266.0" lengthAdjust="spacing" style="animation-delay:1.40s" xml:space="preserve">                                         ;@-:::;;;;~@@@%@@#=o+:;;:;=@-</text>
+      <text class="r" x="14" y="273.1" textLength="418.0" lengthAdjust="spacing" style="animation-delay:1.44s" xml:space="preserve">                                         -@O%:;;;;;;-=xx~;;:::;;:;o@~                                        ,</text>
+      <text class="r" x="14" y="279.4" textLength="258.4" lengthAdjust="spacing" style="animation-delay:1.48s" xml:space="preserve">                                         +O:@@x~;;;;;;;;;;::::;:;@@+</text>
+      <text class="r" x="14" y="285.7" textLength="254.6" lengthAdjust="spacing" style="animation-delay:1.52s" xml:space="preserve">                                         O=:;@@@%+-;;;;;;;;;~;,,@@#</text>
+      <text class="r" x="14" y="292.0" textLength="254.6" lengthAdjust="spacing" style="animation-delay:1.56s" xml:space="preserve">                                        ,@~:;;=#%%O*+=~==oo+;,+%@@~</text>
+      <text class="r" x="14" y="298.3" textLength="254.6" lengthAdjust="spacing" style="animation-delay:1.60s" xml:space="preserve">                                      ~@%@;;;;;:;*%%%%@%Ox+x%%o;x@-</text>
+      <text class="r" x="14" y="304.6" textLength="254.6" lengthAdjust="spacing" style="animation-delay:1.64s" xml:space="preserve">                                    ,x@%#o;;;;;;:;;;;---;;:~=;::;@,</text>
+      <text class="r" x="14" y="310.9" textLength="258.4" lengthAdjust="spacing" style="animation-delay:1.68s" xml:space="preserve">                                  ; ;*+x@-:;;;;;;;;;;;;;;;;;;;::-@*:</text>
+      <text class="r" x="14" y="317.2" textLength="262.2" lengthAdjust="spacing" style="animation-delay:1.72s" xml:space="preserve">                                :--:+=#@*;:--;;;;;;;;;;;;;;;;;;;-@-Ox</text>
+      <text class="r" x="14" y="323.5" textLength="269.8" lengthAdjust="spacing" style="animation-delay:1.76s" xml:space="preserve">                              =*-x-+=~@@;::;--;;;;;;;;;;;;;;;;;;-%;;%@-</text>
+      <text class="r" x="14" y="329.8" textLength="273.6" lengthAdjust="spacing" style="animation-delay:1.80s" xml:space="preserve">                           ::~;-#x+*-:=@o;;;;-;;;;;;;;;;;;;;;;;;-@;;=x@x</text>
+      <text class="r" x="14" y="336.1" textLength="277.4" lengthAdjust="spacing" style="animation-delay:1.84s" xml:space="preserve">                      ;, :*~-;.;:~:*;;~+%@o-;;-;;;;;;;;;;;;;;;;:~@-;-#O:;</text>
+      <text class="r" x="14" y="342.4" textLength="296.4" lengthAdjust="spacing" style="animation-delay:1.88s" xml:space="preserve">                ::,+~;, -x~,     -  ,,~~=x@@@%*-;;;;;;;;;;;;;-+@@#::,#@:    ,,</text>
+      <text class="r" x="14" y="348.7" textLength="304.0" lengthAdjust="spacing" style="animation-delay:1.92s" xml:space="preserve">              ::+Ox:  ,+x*;         -xo=-~=++x#@@@@#ooxoo#%@@@#*+@-, ;+-   :: -:</text>
+      <text class="r" x="14" y="355.0" textLength="319.2" lengthAdjust="spacing" style="animation-delay:1.96s" xml:space="preserve">            :o;~=x-  ,-;;,     .~,   O:;,:;~=+=~=~-=*xxx*+-;~-;-o#: ,:-o   =*;,~  ..</text>
+      <text class="r" x="14" y="361.3" textLength="334.4" lengthAdjust="spacing" style="animation-delay:2.00s" xml:space="preserve">           ,%-:,:, ;~;     .   ,     x:        .,:;;;;:::   .,-=~:;   :~:  ,:.::-  ::,,,</text>
+      <text class="r" x="14" y="367.6" textLength="342.0" lengthAdjust="spacing" style="animation-delay:2.04s" xml:space="preserve">         -,;:.   ~O#-     --, ,      ,                     ,    :-*     ,     ,,;~,;,  ,;,</text>
+      <text class="r" x="14" y="373.9" textLength="342.0" lengthAdjust="spacing" style="animation-delay:2.08s" xml:space="preserve">        o~     ,:-=,   ,;:=x~O*:                           ,:,  :-:           ,,,;-,,    ,</text>
+      <text class="r" x="14" y="380.2" textLength="361.0" lengthAdjust="spacing" style="animation-delay:2.12s" xml:space="preserve">       x-.     .   ,-, ;,:o- %+-                                ,.  .         , ,,;:      , ;:,</text>
+      <text class="r" x="14" y="386.5" textLength="364.8" lengthAdjust="spacing" style="animation-delay:2.16s" xml:space="preserve">      +;,,         xx,       x+                                 ,,   ~-     ,    ,::,       +=;;</text>
+      <text class="r" x="14" y="392.8" textLength="361.0" lengthAdjust="spacing" style="animation-delay:2.20s" xml:space="preserve">     -:           =+~,,,,    x+                                 ,:   :,:          ,, ,      +~o</text>
+      <text class="r" x="14" y="399.1" textLength="364.8" lengthAdjust="spacing" style="animation-delay:2.24s" xml:space="preserve">    :+,          -x+ :;-;    x+                                 ,,                          ,~;=</text>
+      <text class="r" x="14" y="405.4" textLength="368.6" lengthAdjust="spacing" style="animation-delay:2.28s" xml:space="preserve">    x;:         :x+  :;:.    *+                                           ,:                   .-</text>
+      <text class="r" x="14" y="411.7" textLength="372.4" lengthAdjust="spacing" style="animation-delay:2.32s" xml:space="preserve">   ,*-;,        ++,  :,      *o                                            ,x-                  -;</text>
+      <text class="r" x="14" y="418.0" textLength="372.4" lengthAdjust="spacing" style="animation-delay:2.36s" xml:space="preserve">   ,~-;,         ,   ,       x+                                             :o-                  *</text>
+      <text class="r" x="14" y="424.3" textLength="376.2" lengthAdjust="spacing" style="animation-delay:2.40s" xml:space="preserve">  ,;;;:,           ,,       ,x~                                             ;=O-,,               --</text>
+      <text class="r" x="14" y="430.6" textLength="376.2" lengthAdjust="spacing" style="animation-delay:2.44s" xml:space="preserve">  =;;,,            ,,       -+,                                              *=%:,               ,O</text>
+      <text class="r" x="14" y="436.9" textLength="380.0" lengthAdjust="spacing" style="animation-delay:2.48s" xml:space="preserve"> .~;:                       ~+                                               ,+O;                 +:</text>
+      <text class="r" x="14" y="443.2" textLength="383.8" lengthAdjust="spacing" style="animation-delay:2.52s" xml:space="preserve"> :;:.                      ;=:                     ,-*                        :~.                 ,*:</text>
+      <text class="r" x="14" y="449.5" textLength="383.8" lengthAdjust="spacing" style="animation-delay:2.56s" xml:space="preserve">  ,:                       :;                      ,::                                           ,,@;</text>
+      <text class="r" x="14" y="455.8" textLength="383.8" lengthAdjust="spacing" style="animation-delay:2.60s" xml:space="preserve">,:,                                                ,.       ,:.                 ,                , ox</text>
+      <text class="r" x="14" y="462.1" textLength="387.6" lengthAdjust="spacing" style="animation-delay:2.64s" xml:space="preserve">,:,                        ,                  .,,  ,:::,,,:,:;.                ,,                  -@,</text>
+    </g>
+
+    <!-- prompt -->
+    <text class="t" x="14" y="485" font-size="11" fill="#7EC8FF">rizki@dev:~$ <tspan fill="#4FD8FF">cat README.md</tspan></text>
+    <rect class="cursor" x="189" y="476" width="6" height="11" fill="#4FD8FF"/>
+
+    <!-- scanline + garis sapu -->
+    <rect x="0" y="30" width="446" height="468" fill="url(#scan)" pointer-events="none"/>
+    <rect class="sweep" x="0" y="-30" width="446" height="30" fill="#7EC8FF" opacity="0.035"/>
+  </g>
+</svg>
