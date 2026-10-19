@@ -7,3 +7,6 @@
   <img src="./.github/workflows/terminal_small.svg" alt="Terminal Rizki" width="446" />
 </p>
 
+<p align="center">
+  <img src="./.github/workflows/bug-hunter-dark.svg" alt="Bug Hunter" width="100%" />
+</p>
